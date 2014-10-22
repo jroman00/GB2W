@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "GB2W",
     "description": "Get Back 2 Work!",
-    "version": "1.0",
+    "version": "1.1.1",
     "background": {
         "scripts": [
             "background.js"
@@ -13,8 +13,10 @@
         "*://*.amazon.com/*",
         "*://*.ebay.com/*",
         "*://*.facebook.com/*",
+        "*://*.ikea.com/*",
         "*://*.forever21.com/*",
         "*://*.instagram.com/*",
+        "*://*.reddit.com/*",
         "webRequestBlocking"
     ]
 }

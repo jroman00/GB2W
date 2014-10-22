@@ -13,7 +13,7 @@ Array.prototype.randomElement = function() {
 
 chrome.webRequest.onBeforeRequest.addListener(
 	function(details) {
-		if (details.url.search(/(amazon|ebay|forever21)\.com/i) !== -1) {
+		if (details.url.search(/(amazon|ebay|forever21|ikea)\.com/i) !== -1) {
 			return {
 				redirectUrl: mint
 			};
@@ -29,7 +29,9 @@ chrome.webRequest.onBeforeRequest.addListener(
 	        "*://*.ebay.com/*",
 	        "*://*.facebook.com/*",
 	        "*://*.forever21.com/*",
-	        "*://*.instagram.com/*"
+	        "*://*.ikea.com/*",
+	        "*://*.instagram.com/*",
+	        "*://*.reddit.com/*"
 		]
 	},
 	["blocking"]
