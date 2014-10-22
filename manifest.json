@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "GB2W",
+    "description": "Get Back 2 Work!",
+    "version": "1.0",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "webRequest",
+        "*://*.amazon.com/*",
+        "*://*.ebay.com/*",
+        "*://*.facebook.com/*",
+        "*://*.forever21.com/*",
+        "webRequestBlocking"
+    ]
+}
