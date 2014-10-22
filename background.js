@@ -28,7 +28,8 @@ chrome.webRequest.onBeforeRequest.addListener(
 			"*://*.amazon.com/*",
 	        "*://*.ebay.com/*",
 	        "*://*.facebook.com/*",
-	        "*://*.forever21.com/*"
+	        "*://*.forever21.com/*",
+	        "*://*.instagram.com/*"
 		]
 	},
 	["blocking"]
